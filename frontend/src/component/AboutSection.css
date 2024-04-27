@@ -1,0 +1,31 @@
+/* AboutSection.css */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(14, 14, 14, 0.1);
+  }
+  
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .details {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .details p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
