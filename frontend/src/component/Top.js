@@ -278,7 +278,7 @@ const Top = () => {
                     <div className="tracker-progress" style={{ width: `${(completed / puzzles.length) * 100}%` }}></div>
                 </div>
             </div>
-            <div className="table-container"> {/* Add a container div for the table */}
+            <div className="table-container">
                 <table>
                     <thead>
                         <tr>
@@ -286,7 +286,7 @@ const Top = () => {
                             <th>Puzzle</th>
                             <th>Platform</th>
                             <th>Video Solution</th>
-                            <th>Status</th> {/* Add Status column header */}
+                            <th>Status</th> 
                         </tr>
                     </thead>
                     <tbody>
@@ -314,7 +314,7 @@ const Top = () => {
                                         Video Solution
                                     </a>
                                 </td>
-                                <td>{puzzle.status === "Done" ? "✔️" : "❌"}</td> {/* Display tick or cross based on status */}
+                                <td>{puzzle.status === "Done" ? "✔️" : "❌"}</td> 
                             </tr>
                         ))}
                     </tbody>
@@ -325,5 +325,3 @@ const Top = () => {
 };
 
 export default Top;
-
-

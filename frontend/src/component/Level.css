@@ -39,3 +39,11 @@
     color: white;
     text-decoration: none;
 }
+.puzzle-image {
+    max-width: 700px; /* Adjust the max-width as needed */
+    height: auto;
+}
+.show-answer-button {
+    margin-top: 10px; /* Adjust the margin-top as needed */
+}
+

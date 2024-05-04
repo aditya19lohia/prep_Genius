@@ -44,8 +44,8 @@ import IntermediatePuzzles from './component/IntermediatePuzzles';
 const App = () => {
   return (
     <div>
+    <Header />
       <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/" element={<AboutSection/>}></Route>
         <Route path='/register' element={<Signup />}></Route>
