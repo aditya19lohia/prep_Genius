@@ -43,7 +43,6 @@ app.post('/loadxp', async (req, res) => {
         res.status(500).json({ message: "Internal server error" });
     }
 });
-
 app.post("/login",(req,res)=>{
     const {email,password}=req.body;
     StudentModel.findOne({email:email})
