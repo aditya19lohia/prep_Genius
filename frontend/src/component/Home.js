@@ -39,8 +39,7 @@ function Home() {
                 <img className="cimg" src={lb} alt="" />
                 <div className="info">
                     <h3>Level based puzzles</h3>
-                    <p>Explore the top 20 puzzles asked in SDE interviews! Sharpen your problem-solving skills and get
-                        ready to ace your next interview with these challenging brain teasers.</p>
+                    <p>Welcome to the Puzzle Challenge! Our puzzle challenge is designed to test and enhance your problem-solving skills through three levels of difficulty: Basic, Intermediate, and Hard. Each level offers a unique set of puzzles that will challenge your mind and creativity.</p>
                     <button><Link to="/level">View</Link></button>
                 </div>
             </div>
@@ -48,8 +47,7 @@ function Home() {
                 <img className="cimg" src={cz} alt="" />
                 <div className="info">
                     <h3>CodeZone</h3>
-                    <p>Explore the top 20 puzzles asked in SDE interviews! Sharpen your problem-solving skills and get
-                        ready to ace your next interview with these challenging brain teasers.</p>
+                    <p>Blind 75 leetcode is a list of 75 most frequent asked leetcode questions which had helped many developers clear interviews of Google, Amazon, Microsoft, Facebook etc. Hence, it is a tried and tested list with 1000s of testimonials available on all public review platforms such as quora, teamblind etc.</p>
                     <button><Link to="/codezone">View</Link></button>
                 </div>
             </div>

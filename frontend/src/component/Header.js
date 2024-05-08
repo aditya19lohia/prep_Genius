@@ -6,7 +6,7 @@ const Header = () => {
       <div className="logo">PrepGenius</div>
       <div className="auth">
         <a href="/register"> <button className="signin">Register</button></a>
-        <a href="/login"><button className="register">login</button></a>
+        <a href="/login"><button className="register">Login</button></a>
       </div>
     </div>
   );
