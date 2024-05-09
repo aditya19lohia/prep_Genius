@@ -58,7 +58,6 @@ const App = () => {
         <Route path='/intermediate' element={<IntermediatePuzzles />} />
 
       </Routes>
-      <Footer />
       </BrowserRouter>
     
     </div>

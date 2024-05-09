@@ -6,28 +6,17 @@ function MCQPage() {
   const mcqs = [
     {
       id: 1,
-      question: 'What is the output of 2 + 2?',
-      options: ['3', '4', '5', '6'],
-      answer: '4'
-    },
-    {
-      id: 2,
-      question: 'What is the capital of France?',
-      options: ['Berlin', 'London', 'Paris', 'Madrid'],
-      answer: 'Paris'
-    },
-    {
-      id: 3,
       question: 'Which of the following sorting algorithms typically has the worst-case time complexity of O(n^2)?',
       options: ['Merge Sort', 'Quick Sort', 'Bubble Sort', 'Insertion Sort'],
       answer: 'Quick Sort'
     },
     {
-      id: 4,
+      id: 2,
       question: 'What is the output of the following C code? #include <stdio.h> int main() { int x = 5; printf("%d\n", x++); printf("%d\n", ++x); return 0; }',
       options: ['5, 6', '5, 7', '6, 6', '6, 7'],
       answer: '6,6'
     },
+
 
     // Add more MCQs here
   ];

@@ -65,29 +65,29 @@ function Login() {
             <div className="login-container">
                 <div class="circle circle-one"></div>
                 <div className="form-container">
-                <img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" />
-                <h1 class="opacity">LOGIN</h1>
+                    <img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" />
+                    <h1 class="opacity">LOGIN</h1>
                     <form onSubmit={handleSubmit}>
-                            <input
-                                type="email"
-                                placeholder="enter email"
-                                autoCapitalize="off"
-                                name="email"
-                                className="form-control rounded-0"
-                                onChange={(e) => setemail(e.target.value)}
-                            />
-                            <input
-                                type="password"
-                                placeholder="enter password"
-                                name="password"
-                                className="form-control rounded-0"
-                                onChange={(e) => setpassword(e.target.value)}
-                            />
+                        <input
+                            type="email"
+                            placeholder="enter email"
+                            autoCapitalize="off"
+                            name="email"
+                            className="form-control rounded-0"
+                            onChange={(e) => setemail(e.target.value)}
+                        />
+                        <input
+                            type="password"
+                            placeholder="enter password"
+                            name="password"
+                            className="form-control rounded-0"
+                            onChange={(e) => setpassword(e.target.value)}
+                        />
                         <button class="opacity">SUBMIT</button>
                     </form>
                     <div class="register-forget opacity">
-                    <p>New user?</p>
-                    <a href="/register">REGISTER</a>
+                        <p>New user?</p>
+                        <a href="/register">REGISTER</a>
                     </div>
                 </div>
                 <div class="circle circle-two"></div>
